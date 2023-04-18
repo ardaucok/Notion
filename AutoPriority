@@ -19,3 +19,9 @@ arttırıp azaltabilirsiniz. Kendinize özel önem isimlendirmeleri yapılabilir
 "Code" ; 
 
 if(dateBetween(prop("Days"), now(), "days") < 7, "🚨 High", if(dateBetween(prop("Days"), now(), "days") < 30, "❕ Medium", "⏱ Low"))
+
+
+
+
+"
+"
