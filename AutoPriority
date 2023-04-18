@@ -1,1 +1,7 @@
+
+##ENG Information
+
+## TR Açıklamalar
+
+
 if(dateBetween(prop("Days"), now(), "days") < 7, "🚨 High", if(dateBetween(prop("Days"), now(), "days") < 30, "❕ Medium", "⏱ Low"))
