@@ -1,7 +1,21 @@
 
-##ENG Information
+## ENG Information
+
+A simple "if" code that facilitates date-indexed importance ranking over the table layout for employees who make work follow-up planning using the Notion application.
+
+You can integrate it into your table by adding the "Formula" column from the table view. You can increase or decrease the date ranges by taking the ready-made code as an example. 
+
+You can make your own importance nomenclature.
 
 ## TR Açıklamalar
 
+// Notion uygulaması kullanarak iş takip planlaması yapan çalışanlar için tablo düzeni üzerinden tarih endeksli önem sıralaması
+yapılmasını kolaylaştıran basit bir "if" kodu.
+
+Tablo görünümünden "Formula" sütunu eklenerek tablonuza entegre edebilirsiniz. Hazır kodu örnek aralak tarih aralıklarını 
+arttırıp azaltabilirsiniz. Kendinize özel önem isimlendirmeleri yapılabilir. //
+
+
+"Code" ; 
 
 if(dateBetween(prop("Days"), now(), "days") < 7, "🚨 High", if(dateBetween(prop("Days"), now(), "days") < 30, "❕ Medium", "⏱ Low"))
